@@ -1,3 +1,5 @@
+from subprocess import Popen
+
 from kivy.config import Config
 from kivymd.uix.button import MDRaisedButton, MDFloatingActionButton, MDFillRoundFlatButton, MDIconButton
 from kivymd.uix.fitimage import FitImage
@@ -41,8 +43,8 @@ class MainApp(MDApp):
         for child in screen.children:
             if type(child) == type(MDDataTable()):
                 screen.remove_widget(child)
+
     def build(self):
-        # Define Screen
         screen = FloatLayout()
         screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
         self.table="research"
@@ -77,8 +79,25 @@ class MainApp(MDApp):
             icon="update",
             pos_hint={"center_x": 0.9, "center_y": 0.1}, on_press=update
         )
+        def chlist(inst):
+            p = Popen('ChWin\\ListCh.py', shell=True)
+
+        but_comm = MDIconButton(
+            icon="pencil-outline",
+            pos_hint={"center_x": 0.8, "center_y": 0.1},
+            on_press=chlist
+        )
+        def delete_(inst):
+            p = Popen('DelWin\\ListDel.py', shell=True)
+
+        but_del = MDIconButton(
+            icon="delete",
+            pos_hint={"center_x": 0.7, "center_y": 0.1}, on_press=delete_
+        )
         screen.add_widget(but_up)
+        screen.add_widget(but_del)
         screen.add_widget(Table_list)
+        screen.add_widget(but_comm)
         return screen
 
 if __name__ == '__main__':

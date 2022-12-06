@@ -88,8 +88,16 @@ class Warnings(MDApp):
             icon="update",
             pos_hint={"center_x": 0.9, "center_y": 0.1}, on_press=update
         )
+
+        def delete_(inst):
+            p = Popen('DelWin\\WarnDel.py', shell=True)
+        but_del = MDIconButton(
+            icon="delete",
+            pos_hint={"center_x": 0.8, "center_y": 0.1}, on_press=delete_
+        )
         screen.add_widget(table)
         screen.add_widget(but_up)
+        screen.add_widget(but_del)
         return screen
 
 if __name__ == '__main__':

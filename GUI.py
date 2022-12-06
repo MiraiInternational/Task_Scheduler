@@ -67,7 +67,7 @@ class MainApp(MDApp):
             p = Popen('Win\Control.py', shell=True)
 
         def new(inst):
-            p = Popen('Win\Inew.py', shell=True)
+            p = Popen('AddWin\ResAdd.py', shell=True)
 
         def warn(inst):
             p = Popen('Win\warn.py', shell=True)

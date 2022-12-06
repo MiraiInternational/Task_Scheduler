@@ -73,7 +73,14 @@ class MainApp(MDApp):
             screen.add_widget(table)
 
         def empl_new(inst):
-            p = Popen('Win\\add_empl.py', shell=True)
+            p = Popen('AddWin\\EmplAdd.py', shell=True)
+
+        def chempl(inst):
+            p = Popen('ChWin\\EmplCh.py', shell=True)
+
+        def delete_empl(inst):
+            p = Popen('DelWin\\EmplDel.py', shell=True)
+
 
         def empl(inst):
             self.delete_table(screen)
@@ -84,22 +91,29 @@ class MainApp(MDApp):
                                        column_data=get_columns(SQL.query(my_cursor, describe + "employee")),
                                        row_data=get_rows(SQL.query(my_cursor, select_all + "employee")),
                                        )
-            Table_empl.bind(on_check_press=checked)
-            Table_empl.bind(on_row_press=row_checked)
+            Table_empl.bind(on_check_press=self.checked)
+            Table_empl.bind(on_row_press=self.row_checked)
             but_add = MDIconButton (
                 icon="plus",
                 pos_hint={"center_x": 0.8, "center_y": 0.1},
                 on_press=empl_new
             )
             but_comm = MDIconButton(
-                icon="account-check",
-                pos_hint={"center_x": 0.9, "center_y": 0.1}
+                icon="pencil-outline",
+                pos_hint={"center_x": 0.9, "center_y": 0.1},
+                on_press=chempl
             )
             but_up = MDIconButton(
                 icon="update",
                 pos_hint={"center_x": 0.7, "center_y": 0.1}, on_press=update
             )
+            but_del = MDIconButton(
+                icon="delete",
+                pos_hint={"center_x": 0.6, "center_y": 0.1}, on_press=delete_empl
+            )
+
             screen.add_widget(but_comm)
+            screen.add_widget(but_del)
             screen.add_widget(but_up)
             screen.add_widget(but_add)
             screen.add_widget(Table_empl)
@@ -108,7 +122,13 @@ class MainApp(MDApp):
                                   size_hint=BTN_SIZE,
                                   pos_hint={'x': 0.4, 'y': 0.85}, on_press=empl, icon="account")
         def add_param(inst):
-            p = Popen('Win\\add_param.py', shell=True)
+            p = Popen('AddWin\\ParamAdd.py', shell=True)
+
+        def chparam(inst):
+            p = Popen('ChWin\\ParamCh.py', shell=True)
+
+        def delete_param(inst):
+            p = Popen('DelWin\\ParamDel.py', shell=True)
 
         def param(inst):
             self.delete_table(screen)
@@ -118,22 +138,28 @@ class MainApp(MDApp):
                                      use_pagination=True,
                                      column_data=get_columns(SQL.query(my_cursor, describe + "type_of_parameter")),
                                      row_data=get_rows(SQL.query(my_cursor, select_all + "type_of_parameter")))
-            Table_params.bind(on_check_press=checked)
-            Table_params.bind(on_row_press=row_checked)
+            Table_params.bind(on_check_press=self.checked)
+            Table_params.bind(on_row_press=self.row_checked)
             but_add = MDIconButton(
                 icon="plus",
                 pos_hint={"center_x": 0.8, "center_y": 0.1},
                 on_press=add_param
             )
             but_comm = MDIconButton(
-                icon="account-check",
-                pos_hint={"center_x": 0.9, "center_y": 0.1}
+                icon="pencil-outline",
+                pos_hint={"center_x": 0.9, "center_y": 0.1},
+                on_press=chparam
             )
             but_up = MDIconButton(
                 icon="update",
                 pos_hint={"center_x": 0.7, "center_y": 0.1}, on_press=update
             )
+            but_del = MDIconButton(
+                icon="delete",
+                pos_hint={"center_x": 0.6, "center_y": 0.1}, on_press=delete_param
+            )
             screen.add_widget(but_comm)
+            screen.add_widget(but_del)
             screen.add_widget(but_up)
             screen.add_widget(but_add)
             screen.add_widget(Table_params)
@@ -143,7 +169,13 @@ class MainApp(MDApp):
                                   pos_hint={'x': 0.7, 'y': 0.85}, on_press=param, icon="tune")
 
         def add_sens(inst):
-            p = Popen('Win\\add_sens.py', shell=True)
+            p = Popen('AddWin\\SensAdd.py', shell=True)
+
+        def chsens(inst):
+            p = Popen('ChWin\\SensCh.py', shell=True)
+
+        def delete_sens(inst):
+            p = Popen('DelWin\\SensDel.py', shell=True)
 
         def sens(inst):
             self.delete_table(screen)
@@ -153,22 +185,26 @@ class MainApp(MDApp):
                                      use_pagination=True,
                                      column_data=get_columns(SQL.query(my_cursor, describe + "type_of_sensor")),
                                      row_data=get_rows(SQL.query(my_cursor, select_all + "type_of_sensor")))
-            Table_sens.bind(on_check_press=checked)
-            Table_sens.bind(on_row_press=row_checked)
             but_add = MDIconButton(
                 icon="plus",
                 pos_hint={"center_x": 0.8, "center_y": 0.1},
                 on_press=add_sens
             )
             but_comm = MDIconButton(
-                icon="account-check",
-                pos_hint={"center_x": 0.9, "center_y": 0.1}
+                icon="pencil-outline",
+                pos_hint={"center_x": 0.9, "center_y": 0.1},
+                on_press = chsens
             )
             but_up = MDIconButton(
                 icon="update",
                 pos_hint={"center_x": 0.7, "center_y": 0.1}, on_press=update
             )
+            but_del = MDIconButton(
+                icon="delete",
+                pos_hint={"center_x": 0.6, "center_y": 0.1}, on_press=delete_sens
+            )
             screen.add_widget(but_comm)
+            screen.add_widget(but_del)
             screen.add_widget(but_up)
             screen.add_widget(but_add)
             screen.add_widget(Table_sens)
@@ -177,22 +213,26 @@ class MainApp(MDApp):
                                    size_hint=BTN_SIZE,
                                    pos_hint={'x': 0.1, 'y': 0.85}, on_press=sens, icon="leak")
 
-        def checked(self, instance_table, current_row):
-            print('Checked')
-            print(instance_table, current_row)
-            self.LIST_TO_DELETE.append(current_row)
-            print(self.LIST_TO_DELETE)
-            # Function for row presses
 
-        def row_checked(self, instance_table, instance_row):
-            print('Selected Row')
-            print(instance_table, instance_row)
 
         screen.add_widget(new_empl)
         screen.add_widget(new_param)
         screen.add_widget(new_sens)
         return screen
 
+    def checked(self, instance_table, current_row):
+        print('Checked')
+        print(instance_table, current_row)
+        print(self.LIST_TO_DELETE)
+        # Function for row presses
+
+    def row_checked(self):
+        print('Selected Row')
+        if self.table == "employee":
+            print("empl")
+        if self.table == "type_of_sensor":
+            print("type_of_sensor")
+            p = Popen('ChWin\\ParamCh.py', shell=True)
 
 if __name__ == '__main__':
     MainApp().run()
