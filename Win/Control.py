@@ -39,7 +39,7 @@ def get_rows(data):
         rows.append(row)
     return rows
 
-class MainApp(MDApp):
+class ControlApp(MDApp):
     table = ""
     def delete_table(self, screen):
         for child in screen.children:
@@ -91,8 +91,6 @@ class MainApp(MDApp):
                                        column_data=get_columns(SQL.query(my_cursor, describe + "employee")),
                                        row_data=get_rows(SQL.query(my_cursor, select_all + "employee")),
                                        )
-            Table_empl.bind(on_check_press=self.checked)
-            Table_empl.bind(on_row_press=self.row_checked)
             but_add = MDIconButton (
                 icon="plus",
                 pos_hint={"center_x": 0.8, "center_y": 0.1},
@@ -111,11 +109,15 @@ class MainApp(MDApp):
                 icon="delete",
                 pos_hint={"center_x": 0.6, "center_y": 0.1}, on_press=delete_empl
             )
+            but_sal = MDFillRoundFlatIconButton(text='Пересчетать зарплаты',
+                                                size_hint=BTN_SIZE,
+                                                pos_hint={'x': 0.1, 'y': 0.05}, on_press=sal, icon="cash-multiple")
 
             screen.add_widget(but_comm)
             screen.add_widget(but_del)
             screen.add_widget(but_up)
             screen.add_widget(but_add)
+            screen.add_widget(but_sal)
             screen.add_widget(Table_empl)
 
         new_empl = MDFillRoundFlatIconButton(text='Сотрудники',
@@ -138,8 +140,6 @@ class MainApp(MDApp):
                                      use_pagination=True,
                                      column_data=get_columns(SQL.query(my_cursor, describe + "type_of_parameter")),
                                      row_data=get_rows(SQL.query(my_cursor, select_all + "type_of_parameter")))
-            Table_params.bind(on_check_press=self.checked)
-            Table_params.bind(on_row_press=self.row_checked)
             but_add = MDIconButton(
                 icon="plus",
                 pos_hint={"center_x": 0.8, "center_y": 0.1},
@@ -176,6 +176,9 @@ class MainApp(MDApp):
 
         def delete_sens(inst):
             p = Popen('DelWin\\SensDel.py', shell=True)
+
+        def sal(inst):
+            p = Popen('Win\\sal.py', shell=True)
 
         def sens(inst):
             self.delete_table(screen)
@@ -235,4 +238,4 @@ class MainApp(MDApp):
             p = Popen('ChWin\\ParamCh.py', shell=True)
 
 if __name__ == '__main__':
-    MainApp().run()
+    ControlApp().run()

@@ -66,7 +66,7 @@ class New_Employee(MDApp):
                 try:
                     int(Field4.text)
                     if int(Field4.text) not in dep_list:
-                        Field4.helper_text = 'ID должен быть верным'
+                        Field4.helper_text = 'ID должен быть верным (1,2,3)'
                         Field4.error = True
                     else:
                         Field4.error = False
