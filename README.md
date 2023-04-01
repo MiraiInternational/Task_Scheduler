@@ -18,7 +18,7 @@
 
 1. Склонировать репозиторий:
 
-```git clone https://github.com/username/planner.git```
+```git clone https://github.com/MiraiInternational/Task_Scheduler```
 
 2. Установить зависимости:
 
