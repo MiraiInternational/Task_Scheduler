@@ -47,14 +47,15 @@ class MainApp(MDApp):
     def build(self):
         screen = FloatLayout()
         screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
-        self.table="research"
+        self.table="tasks"
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
         Table_list = MDDataTable(pos_hint={'center_x': 0.5, 'center_y': 0.5},
                                  size_hint=(.9, 0.6),
                                  use_pagination=True,
-                                 column_data=get_columns(SQL.query(my_cursor, describe + "research")),
-                                 row_data=get_rows(SQL.query(my_cursor, select_all + "research")))
+                                 check = True,
+                                 column_data=get_columns(SQL.query(my_cursor, describe + "tasks")),
+                                 row_data=get_rows(SQL.query(my_cursor, select_all + "tasks")))
 
         def update(inst):
             self.delete_table(screen)

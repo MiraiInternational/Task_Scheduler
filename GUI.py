@@ -1,7 +1,6 @@
 from subprocess import Popen
 
 from kivy.config import Config
-from kivy.properties import ObjectProperty
 from kivymd.uix.button import MDRaisedButton, MDFloatingActionButton, MDFillRoundFlatButton, MDIconButton, \
     MDFloatingActionButtonSpeedDial, MDFillRoundFlatIconButton
 from kivymd.uix.fitimage import FitImage
@@ -10,8 +9,6 @@ from kivymd.uix.snackbar import Snackbar
 from kivymd import *
 from kivymd.uix.taptargetview import MDTapTargetView
 from kivy.uix.image import Image
-Config.set('graphics', 'width', '1200')
-Config.set('graphics', 'height', '600')
 from kivy.lang import Builder
 from kivy.uix import dropdown
 from kivymd.app import *
@@ -30,6 +27,8 @@ import AddWindow
 
 BTN_SIZE = (.14, .1)
 
+Config.set('graphics', 'width', '1200')
+Config.set('graphics', 'height', '600')
 
 def get_columns(data):
     columns = []

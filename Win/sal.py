@@ -50,7 +50,7 @@ class MainApp(MDApp):
     def build(self):
         screen = FloatLayout()
         self.delete_table(screen)
-        screen.add_widget(FitImage(source='C:\\Users\\Alex\\PycharmProjects\\database\\pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
+        screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
         SQL.my_cursor.callproc('sal_empl')
