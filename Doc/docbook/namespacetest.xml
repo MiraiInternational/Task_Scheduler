@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacetest" xml:lang="en-US">
+<title>test Namespace Reference</title>
+<indexterm><primary>test</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespacetest_1a1c7d8bbd8c57b52234b560a87a0a1dce">get_rows</link> (data)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespacetest_1af58c60c388329542693894db14285d58">get_columns</link> (data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacetest_1a22257ca5d49093888407149ed5dafbcd">res2</link> = []</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacetest_1af58c60c388329542693894db14285d58"/><section>
+    <title>get_columns()</title>
+<indexterm><primary>get_columns</primary><secondary>test</secondary></indexterm>
+<indexterm><primary>test</primary><secondary>get_columns</secondary></indexterm>
+<para><computeroutput>def test.get_columns ( data)</computeroutput></para></section>
+<anchor xml:id="_namespacetest_1a1c7d8bbd8c57b52234b560a87a0a1dce"/><section>
+    <title>get_rows()</title>
+<indexterm><primary>get_rows</primary><secondary>test</secondary></indexterm>
+<indexterm><primary>test</primary><secondary>get_rows</secondary></indexterm>
+<para><computeroutput>def test.get_rows ( data)</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacetest_1a22257ca5d49093888407149ed5dafbcd"/><section>
+    <title>res2</title>
+<indexterm><primary>res2</primary><secondary>test</secondary></indexterm>
+<indexterm><primary>test</primary><secondary>res2</secondary></indexterm>
+<para><computeroutput>list test.res2 = []</computeroutput></para></section>
+</section>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_add_window" xml:lang="en-US">
+<title>AddWindow Namespace Reference</title>
+<indexterm><primary>AddWindow</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_add_window_1_1_add_window">AddWindow</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

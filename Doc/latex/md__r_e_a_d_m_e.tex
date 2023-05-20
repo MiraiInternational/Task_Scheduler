@@ -1,0 +1,58 @@
+Планеровщик задач -\/ это инструмент управления задачами, который помогает пользователям создавать, управлять и отслеживать свои задачи и проекты.
+
+Вы можете использовать планер задач для следующих целей\+:
+
+
+\begin{DoxyItemize}
+\item Создать задачи
+\item Определить сроки выполнения задач
+\item Управлять приоритетом задач
+\item Добавить описание и комментарии к задачам
+\item Установить напоминания о задачах
+\item Отслеживать прогресс выполнения задач
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{Документация разработчика}\label{md__r_e_a_d_m_e_autotoc_md1}
+Планеровщик задач -\/ это веб-\/приложение, созданное с использованием фреймворка Django.
+
+Для запуска планера задач на локальном компьютере необходимо выполнить следующие шаги\+:
+
+
+\begin{DoxyEnumerate}
+\item Склонировать репозиторий\+:
+\end{DoxyEnumerate}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{2.\ Установить\ зависимости:}
+\DoxyCodeLine{}
+\DoxyCodeLine{```pip\ install\ -\/r\ requirements.txt}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyEnumerate}
+\item Создать и применить миграции базы данных\+:
+\end{DoxyEnumerate}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{```python\ manage.py\ migrate}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyEnumerate}
+\item Создать суперпользователя\+:
+\end{DoxyEnumerate}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5.\ Запустить\ сервер:}
+\DoxyCodeLine{}
+\DoxyCodeLine{```python\ manage.py\ runserver}
+
+\end{DoxyCode}
+
+
+После запуска сервера можно открыть приложение в браузере по адресу \href{http://localhost:8000/}{\texttt{ http\+://localhost\+:8000/}}. 

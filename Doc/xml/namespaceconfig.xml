@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespaceconfig" kind="namespace" language="Python">
+    <compoundname>config</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceconfig_1a064b1520dbe78f2667b638c59617b141" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <qualifiedname>config.host</qualifiedname>
+        <initializer>=  &quot;127.0.0.1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="2" column="1" bodyfile="config.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1a10268d46b69d51ed168d8e4440a1274b" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>config.user</qualifiedname>
+        <initializer>=  &quot;root&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="3" column="1" bodyfile="config.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1a6cd6dab13da9dc753475e1eb17495774" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <qualifiedname>config.password</qualifiedname>
+        <initializer>=  &quot;1111&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="4" column="1" bodyfile="config.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1acde11b216a7b6d004ed63dafdeaf9d63" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.db_name</definition>
+        <argsstring></argsstring>
+        <name>db_name</name>
+        <qualifiedname>config.db_name</qualifiedname>
+        <initializer>=  &quot;task&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="5" column="1" bodyfile="config.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1a2d2c5a47dd4842383af9c4152e9e9835" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.MAIN_TABLE</definition>
+        <argsstring></argsstring>
+        <name>MAIN_TABLE</name>
+        <qualifiedname>config.MAIN_TABLE</qualifiedname>
+        <initializer>=  &quot;tasks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="7" column="1" bodyfile="config.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1a99d1ee84be57ae45c44b94eaa982d2a6" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.select_all</definition>
+        <argsstring></argsstring>
+        <name>select_all</name>
+        <qualifiedname>config.select_all</qualifiedname>
+        <initializer>=  &quot;SELECT * FROM &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="9" column="1" bodyfile="config.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1ab1352d136d10b9311d8f5e19a6a79b17" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.describe</definition>
+        <argsstring></argsstring>
+        <name>describe</name>
+        <qualifiedname>config.describe</qualifiedname>
+        <initializer>=  &quot;DESCRIBE &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="10" column="1" bodyfile="config.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconfig_1a14d8db40500dc878ecc368392350a9d8" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str config.delete</definition>
+        <argsstring></argsstring>
+        <name>delete</name>
+        <qualifiedname>config.delete</qualifiedname>
+        <initializer>=  &quot;DELETE from &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="config.py" line="11" column="1" bodyfile="config.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="config.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

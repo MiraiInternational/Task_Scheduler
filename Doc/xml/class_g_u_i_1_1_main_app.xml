@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_g_u_i_1_1_main_app" kind="class" language="Python" prot="public">
+    <compoundname>GUI::MainApp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MDApp</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_u_i_1_1_main_app_1a57ed5af81ccea28427edeb2e6aab3950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def GUI.MainApp.delete_table</definition>
+        <argsstring>(self, screen)</argsstring>
+        <name>delete_table</name>
+        <qualifiedname>GUI.MainApp.delete_table</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>screen</type>
+          <defname>screen</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GUI.py" line="49" column="1" bodyfile="GUI.py" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_1_1_main_app_1a31cce057786b1f03004d03c311a4f76e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def GUI.MainApp.build</definition>
+        <argsstring>(self)</argsstring>
+        <name>build</name>
+        <qualifiedname>GUI.MainApp.build</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GUI.py" line="54" column="1" bodyfile="GUI.py" bodystart="54" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_1_1_main_app_1ab07d0eaf1d482e560d2cd67d5a4583a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def GUI.MainApp.checked</definition>
+        <argsstring>(self, instance_table, current_row)</argsstring>
+        <name>checked</name>
+        <qualifiedname>GUI.MainApp.checked</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>instance_table</type>
+          <defname>instance_table</defname>
+        </param>
+        <param>
+          <type>current_row</type>
+          <defname>current_row</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GUI.py" line="106" column="1" bodyfile="GUI.py" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_1_1_main_app_1a175bbf53d04190f0a5ebb8b68c0f4830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def GUI.MainApp.row_checked</definition>
+        <argsstring>(self, instance_table, instance_row)</argsstring>
+        <name>row_checked</name>
+        <qualifiedname>GUI.MainApp.row_checked</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>instance_table</type>
+          <defname>instance_table</defname>
+        </param>
+        <param>
+          <type>instance_row</type>
+          <defname>instance_row</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GUI.py" line="113" column="1" bodyfile="GUI.py" bodystart="113" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GUI.MainApp</label>
+        <link refid="class_g_u_i_1_1_main_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MDApp</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GUI.MainApp</label>
+        <link refid="class_g_u_i_1_1_main_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MDApp</label>
+      </node>
+    </collaborationgraph>
+    <location file="GUI.py" line="47" column="1" bodyfile="GUI.py" bodystart="47" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_g_u_i_1_1_main_app_1a31cce057786b1f03004d03c311a4f76e" prot="public" virt="non-virtual"><scope>GUI::MainApp</scope><name>build</name></member>
+      <member refid="class_g_u_i_1_1_main_app_1ab07d0eaf1d482e560d2cd67d5a4583a0" prot="public" virt="non-virtual"><scope>GUI::MainApp</scope><name>checked</name></member>
+      <member refid="class_g_u_i_1_1_main_app_1a57ed5af81ccea28427edeb2e6aab3950" prot="public" virt="non-virtual"><scope>GUI::MainApp</scope><name>delete_table</name></member>
+      <member refid="class_g_u_i_1_1_main_app_1a175bbf53d04190f0a5ebb8b68c0f4830" prot="public" virt="non-virtual"><scope>GUI::MainApp</scope><name>row_checked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

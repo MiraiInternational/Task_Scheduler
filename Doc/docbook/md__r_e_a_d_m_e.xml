@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__r_e_a_d_m_e" xml:lang="en-US">
+
+<para>Планеровщик задач - это инструмент управления задачами, который помогает пользователям создавать, управлять и отслеживать свои задачи и проекты.</para>
+
+<para>Вы можете использовать планер задач для следующих целей:</para>
+
+<para><itemizedlist>
+<listitem>
+<para>Создать задачи</para>
+</listitem><listitem>
+<para>Определить сроки выполнения задач</para>
+</listitem><listitem>
+<para>Управлять приоритетом задач</para>
+</listitem><listitem>
+<para>Добавить описание и комментарии к задачам</para>
+</listitem><listitem>
+<para>Установить напоминания о задачах</para>
+</listitem><listitem>
+<para>Отслеживать прогресс выполнения задач</para>
+</listitem></itemizedlist>
+</para>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md1">
+<title>Документация разработчика</title>
+
+<para>Планеровщик задач - это веб-приложение, созданное с использованием фреймворка Django.</para>
+
+<para>Для запуска планера задач на локальном компьютере необходимо выполнить следующие шаги:</para>
+
+<para><orderedlist>
+<listitem>
+<para>Склонировать репозиторий:</para>
+</listitem></orderedlist>
+</para>
+
+<para><literallayout><computeroutput>2.&#32;Установить&#32;зависимости:
+
+```pip&#32;install&#32;-r&#32;requirements.txt
+</computeroutput></literallayout></para>
+
+<para><orderedlist>
+<listitem>
+<para>Создать и применить миграции базы данных:</para>
+</listitem></orderedlist>
+</para>
+
+<para><literallayout><computeroutput>```python&#32;manage.py&#32;migrate
+</computeroutput></literallayout></para>
+
+<para><orderedlist>
+<listitem>
+<para>Создать суперпользователя:</para>
+</listitem></orderedlist>
+</para>
+
+<para><literallayout><computeroutput>5.&#32;Запустить&#32;сервер:
+
+```python&#32;manage.py&#32;runserver
+</computeroutput></literallayout></para>
+
+<para>После запуска сервера можно открыть приложение в браузере по адресу <link xlink:href="http://localhost:8000/">http://localhost:8000/</link>. </para>
+</section>
+</section>

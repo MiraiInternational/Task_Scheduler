@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_add_window_1_1_add_window" kind="class"><name>AddWindow::AddWindow</name>
+    <member refid="class_add_window_1_1_add_window_1ac0ebdb844e89eeb1d7c9a6bc54778112" kind="function"><name>build</name></member>
+  </compound>
+  <compound refid="class_g_u_i_1_1_main_app" kind="class"><name>GUI::MainApp</name>
+    <member refid="class_g_u_i_1_1_main_app_1a57ed5af81ccea28427edeb2e6aab3950" kind="function"><name>delete_table</name></member>
+    <member refid="class_g_u_i_1_1_main_app_1a31cce057786b1f03004d03c311a4f76e" kind="function"><name>build</name></member>
+    <member refid="class_g_u_i_1_1_main_app_1ab07d0eaf1d482e560d2cd67d5a4583a0" kind="function"><name>checked</name></member>
+    <member refid="class_g_u_i_1_1_main_app_1a175bbf53d04190f0a5ebb8b68c0f4830" kind="function"><name>row_checked</name></member>
+  </compound>
+  <compound refid="namespace_add_window" kind="namespace"><name>AddWindow</name>
+  </compound>
+  <compound refid="namespaceconfig" kind="namespace"><name>config</name>
+    <member refid="namespaceconfig_1a064b1520dbe78f2667b638c59617b141" kind="variable"><name>host</name></member>
+    <member refid="namespaceconfig_1a10268d46b69d51ed168d8e4440a1274b" kind="variable"><name>user</name></member>
+    <member refid="namespaceconfig_1a6cd6dab13da9dc753475e1eb17495774" kind="variable"><name>password</name></member>
+    <member refid="namespaceconfig_1acde11b216a7b6d004ed63dafdeaf9d63" kind="variable"><name>db_name</name></member>
+    <member refid="namespaceconfig_1a2d2c5a47dd4842383af9c4152e9e9835" kind="variable"><name>MAIN_TABLE</name></member>
+    <member refid="namespaceconfig_1a99d1ee84be57ae45c44b94eaa982d2a6" kind="variable"><name>select_all</name></member>
+    <member refid="namespaceconfig_1ab1352d136d10b9311d8f5e19a6a79b17" kind="variable"><name>describe</name></member>
+    <member refid="namespaceconfig_1a14d8db40500dc878ecc368392350a9d8" kind="variable"><name>delete</name></member>
+  </compound>
+  <compound refid="namespace_g_u_i" kind="namespace"><name>GUI</name>
+    <member refid="namespace_g_u_i_1ab69e83ffc1a3f7a0c8c032fff70f639e" kind="variable"><name>BTN_SIZE</name></member>
+    <member refid="namespace_g_u_i_1a26e81fb0a478da18db2375f1c8597e12" kind="function"><name>get_columns</name></member>
+    <member refid="namespace_g_u_i_1ad3dface2fd88757967acc44225599d36" kind="function"><name>get_rows</name></member>
+  </compound>
+  <compound refid="namespacekivymd" kind="namespace"><name>kivymd</name>
+  </compound>
+  <compound refid="namespacekivymd_1_1app" kind="namespace"><name>kivymd::app</name>
+  </compound>
+  <compound refid="namespace_s_q_l" kind="namespace"><name>SQL</name>
+    <member refid="namespace_s_q_l_1a5d112defeb4eff8c42465b1d0be31255" kind="variable"><name>mydb</name></member>
+    <member refid="namespace_s_q_l_1af06e6da4687a403274c6a7dd45f2e9b9" kind="variable"><name>my_cursor</name></member>
+    <member refid="namespace_s_q_l_1a8c509549b432bdd5f841b8f9d40bb1a6" kind="variable"><name>res</name></member>
+    <member refid="namespace_s_q_l_1ab35a5519d3b1162298237f57d6259889" kind="variable"><name>newRes</name></member>
+    <member refid="namespace_s_q_l_1a89335662d3bf9e1313c6a13e0807626d" kind="function"><name>query</name></member>
+  </compound>
+  <compound refid="namespacetest" kind="namespace"><name>test</name>
+    <member refid="namespacetest_1a22257ca5d49093888407149ed5dafbcd" kind="variable"><name>res2</name></member>
+    <member refid="namespacetest_1a1c7d8bbd8c57b52234b560a87a0a1dce" kind="function"><name>get_rows</name></member>
+    <member refid="namespacetest_1af58c60c388329542693894db14285d58" kind="function"><name>get_columns</name></member>
+  </compound>
+  <compound refid="_add_window_8py" kind="file"><name>AddWindow.py</name>
+  </compound>
+  <compound refid="config_8py" kind="file"><name>config.py</name>
+  </compound>
+  <compound refid="_g_u_i_8py" kind="file"><name>GUI.py</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_s_q_l_8py" kind="file"><name>SQL.py</name>
+  </compound>
+  <compound refid="test_8py" kind="file"><name>test.py</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__g_u_i_8py" xml:lang="en-US">
+<title>GUI.py File Reference</title>
+<indexterm><primary>GUI.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_g_u_i_1_1_main_app">GUI.MainApp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_g_u_i">GUI</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_g_u_i_1a26e81fb0a478da18db2375f1c8597e12">GUI.get_columns</link> (data)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_g_u_i_1ad3dface2fd88757967acc44225599d36">GUI.get_rows</link> (data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_namespace_g_u_i_1ab69e83ffc1a3f7a0c8c032fff70f639e">GUI.BTN_SIZE</link> = (.14, .1)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

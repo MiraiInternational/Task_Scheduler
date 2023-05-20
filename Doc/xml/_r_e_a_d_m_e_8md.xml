@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Task_Scheduler</highlight></codeline>
+<codeline><highlight class="normal">Планеровщик<sp/>задач<sp/>-<sp/>это<sp/>инструмент<sp/>управления<sp/>задачами,<sp/>который<sp/>помогает<sp/>пользователям<sp/>создавать,<sp/>управлять<sp/>и<sp/>отслеживать<sp/>свои<sp/>задачи<sp/>и<sp/>проекты.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Вы<sp/>можете<sp/>использовать<sp/>планер<sp/>задач<sp/>для<sp/>следующих<sp/>целей:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Создать<sp/>задачи</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Определить<sp/>сроки<sp/>выполнения<sp/>задач</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Управлять<sp/>приоритетом<sp/>задач</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Добавить<sp/>описание<sp/>и<sp/>комментарии<sp/>к<sp/>задачам</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Установить<sp/>напоминания<sp/>о<sp/>задачах</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Отслеживать<sp/>прогресс<sp/>выполнения<sp/>задач</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Документация<sp/>разработчика</highlight></codeline>
+<codeline><highlight class="normal">--</highlight></codeline>
+<codeline><highlight class="normal">Планеровщик<sp/>задач<sp/>-<sp/>это<sp/>веб-приложение,<sp/>созданное<sp/>с<sp/>использованием<sp/>фреймворка<sp/>Django.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Для<sp/>запуска<sp/>планера<sp/>задач<sp/>на<sp/>локальном<sp/>компьютере<sp/>необходимо<sp/>выполнить<sp/>следующие<sp/>шаги:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Склонировать<sp/>репозиторий:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```git<sp/>clone<sp/>https://github.com/MiraiInternational/Task_Scheduler.git```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2.<sp/>Установить<sp/>зависимости:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```pip<sp/>install<sp/>-r<sp/>requirements.txt```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3.<sp/>Создать<sp/>и<sp/>применить<sp/>миграции<sp/>базы<sp/>данных:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```python<sp/>manage.py<sp/>makemigrations```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```python<sp/>manage.py<sp/>migrate```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">4.<sp/>Создать<sp/>суперпользователя:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```python<sp/>manage.py<sp/>createsuperuser```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">5.<sp/>Запустить<sp/>сервер:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```python<sp/>manage.py<sp/>runserver```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">После<sp/>запуска<sp/>сервера<sp/>можно<sp/>открыть<sp/>приложение<sp/>в<sp/>браузере<sp/>по<sp/>адресу<sp/>http://localhost:8000/.</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

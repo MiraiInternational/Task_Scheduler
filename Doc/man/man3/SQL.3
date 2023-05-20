@@ -1,0 +1,58 @@
+.TH "SQL" 3 "Sat May 20 2023" "Task_Scheduler" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQL
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBquery\fP (cursor, data)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "mysql \fBmydb\fP"
+.br
+.ti -1c
+.RI "mysql \fBmy_cursor\fP = mydb\&.cursor()"
+.br
+.ti -1c
+.RI "tuple \fBres\fP = (\fBquery\fP(\fBmy_cursor\fP, 'show tables'))"
+.br
+.ti -1c
+.RI "tuple \fBnewRes\fP = tuple(el[0] for el in \fBres\fP)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def SQL\&.query ( cursor,  data)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "mysql SQL\&.my_cursor = mydb\&.cursor()"
+
+.SS "mysql SQL\&.mydb"
+\fBInitial value:\fP.PP
+.nf
+1 =  mysql\&.connector\&.Connect(
+2     host=host,
+3     port=3306,
+4     user=user,
+5     password=password,
+6     db=db_name
+7 )
+.fi
+
+.SS "tuple SQL\&.newRes = tuple(el[0] for el in \fBres\fP)"
+
+.SS "tuple SQL\&.res = (\fBquery\fP(\fBmy_cursor\fP, 'show tables'))"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Task_Scheduler from the source code\&.

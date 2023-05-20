@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test_8py" xml:lang="en-US">
+<title>test.py File Reference</title>
+<indexterm><primary>test.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacetest">test</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespacetest_1a1c7d8bbd8c57b52234b560a87a0a1dce">test.get_rows</link> (data)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespacetest_1af58c60c388329542693894db14285d58">test.get_columns</link> (data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacetest_1a22257ca5d49093888407149ed5dafbcd">test.res2</link> = []</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
