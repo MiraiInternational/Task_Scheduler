@@ -1,3 +1,8 @@
+from kivy.config import Config
+
+Config.set('graphics', 'width', '500')
+Config.set('graphics', 'height', '200')
+
 from kivy.lang import Builder
 from kivymd.app import MDApp
 from kivymd.uix.banner import MDBanner
@@ -16,8 +21,9 @@ class New_Parameter(MDApp):
         screen = FloatLayout()
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
+        self.title = 'Delete'
         screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
-        pk_list = [el[0] for el in SQL.query(SQL.my_cursor, 'SELECT Researches_ID from research')]
+        pk_list = [el[0] for el in SQL.query(SQL.my_cursor, 'SELECT № from tasks')]
         def has_numbers(inputString):
             return any(char.isdigit() for char in inputString)
 
@@ -42,7 +48,7 @@ class New_Parameter(MDApp):
 
 
         Field1 = MDTextField(
-            hint_text="Researches_ID",
+            hint_text="№",
             pos_hint={"x": 0.05, "y": 0.7},
             size_hint={0.6, 0.05},
             multiline=False,
@@ -53,7 +59,7 @@ class New_Parameter(MDApp):
 
 
         def new(instance):
-            SQL.query(SQL.my_cursor, f'DELETE from research WHERE Researches_ID = {Field1.text}')
+            SQL.query(SQL.my_cursor, f'DELETE from tasks WHERE № = {Field1.text}')
             SQL.mydb.commit()
             MDApp.get_running_app().stop()
 

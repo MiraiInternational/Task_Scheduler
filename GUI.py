@@ -1,6 +1,9 @@
-from subprocess import Popen
 
 from kivy.config import Config
+Config.set('graphics', 'width', '600')
+Config.set('graphics', 'height', '400')
+from subprocess import Popen
+
 from kivymd.uix.button import MDRaisedButton, MDFloatingActionButton, MDFillRoundFlatButton, MDIconButton, \
     MDFloatingActionButtonSpeedDial, MDFillRoundFlatIconButton
 from kivymd.uix.fitimage import FitImage
@@ -24,11 +27,10 @@ import SQL
 from SQL import *
 from config import *
 import AddWindow
+import webbrowser
 
 BTN_SIZE = (.14, .1)
 
-Config.set('graphics', 'width', '1200')
-Config.set('graphics', 'height', '600')
 
 def get_columns(data):
     columns = []
@@ -57,6 +59,7 @@ class MainApp(MDApp):
         screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
+        self.title = 'Main'
         # Define Table
         def table_list(inst):
             p = Popen('Win\List.py', shell=True)
@@ -69,38 +72,31 @@ class MainApp(MDApp):
             p = Popen('AddWin\ResAdd.py', shell=True)
 
         def warn(inst):
-            p = Popen('Win\warn.py', shell=True)
+            webbrowser.open("https://www.tinkoff.ru/cf/8s8RSHqPFTd")
 
-        List = MDFillRoundFlatIconButton(text='Список исследований',
+        List = MDFillRoundFlatIconButton(text='Список задач',
                               size_hint=BTN_SIZE,
                               pos_hint={'x': 0.7, 'y': 0.5},
                               on_press=table_list,
                               icon="book"
                               )
 
-        Control = MDFillRoundFlatIconButton(text='Управление станцией',
-                              size_hint=BTN_SIZE,
-                              pos_hint={'x': 0.38, 'y': 0.5},
-                              on_press=table_control,
-                              icon="application-cog-outline"
-                                 )
 
-        New = MDFillRoundFlatIconButton(text='Новое исследование',
+        New = MDFillRoundFlatIconButton(text='Новая задача',
                                  size_hint=BTN_SIZE,
                                  pos_hint={'x': 0.05, 'y': 0.5},
                              on_press=new,
-                             icon="plus"
+                             icon="checkbox-marked-circle-plus-outline"
                              )
 
-        Warn = MDIconButton(
-            icon="alert",
+        Donate = MDIconButton(
+            icon="account-cash-outline",
             pos_hint={"center_x": 0.5, "center_y": 0.43},
             on_press=warn
         )
         screen.add_widget(List)
-        screen.add_widget(Warn)
+        screen.add_widget(Donate)
         screen.add_widget(New)
-        screen.add_widget(Control)
         return screen
 
     def checked(self, instance_table, current_row):

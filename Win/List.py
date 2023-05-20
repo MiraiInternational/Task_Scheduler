@@ -1,12 +1,13 @@
-from subprocess import Popen
 
 from kivy.config import Config
+Config.set('graphics', 'width', '1150')
+Config.set('graphics', 'height', '800')
+
+from subprocess import Popen
+
 from kivymd.uix.button import MDRaisedButton, MDFloatingActionButton, MDFillRoundFlatButton, MDIconButton
 from kivymd.uix.fitimage import FitImage
 from kivymd.uix.menu import MDDropdownMenu
-
-Config.set('graphics', 'width', '1200')
-Config.set('graphics', 'height', '600')
 from kivy.lang import Builder
 from kivy.uix import dropdown
 from kivymd.app import MDApp
@@ -50,6 +51,7 @@ class MainApp(MDApp):
         self.table="tasks"
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
+        self.title = 'Tasks'
         Table_list = MDDataTable(pos_hint={'center_x': 0.5, 'center_y': 0.5},
                                  size_hint=(.9, 0.6),
                                  use_pagination=True,
