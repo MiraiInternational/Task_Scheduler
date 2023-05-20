@@ -1,0 +1,65 @@
+\hypertarget{namespace_s_q_l}{}\doxysection{SQL Namespace Reference}
+\label{namespace_s_q_l}\index{SQL@{SQL}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_s_q_l_a89335662d3bf9e1313c6a13e0807626d}{query}} (cursor, data)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+mysql \mbox{\hyperlink{namespace_s_q_l_a5d112defeb4eff8c42465b1d0be31255}{mydb}}
+\item 
+mysql \mbox{\hyperlink{namespace_s_q_l_af06e6da4687a403274c6a7dd45f2e9b9}{my\+\_\+cursor}} = mydb.\+cursor()
+\item 
+tuple \mbox{\hyperlink{namespace_s_q_l_a8c509549b432bdd5f841b8f9d40bb1a6}{res}} = (\mbox{\hyperlink{namespace_s_q_l_a89335662d3bf9e1313c6a13e0807626d}{query}}(\mbox{\hyperlink{namespace_s_q_l_af06e6da4687a403274c6a7dd45f2e9b9}{my\+\_\+cursor}}, \char`\"{}show tables\char`\"{}))
+\item 
+tuple \mbox{\hyperlink{namespace_s_q_l_ab35a5519d3b1162298237f57d6259889}{new\+Res}} = tuple(el\mbox{[}0\mbox{]} for el in \mbox{\hyperlink{namespace_s_q_l_a8c509549b432bdd5f841b8f9d40bb1a6}{res}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_s_q_l_a89335662d3bf9e1313c6a13e0807626d}\label{namespace_s_q_l_a89335662d3bf9e1313c6a13e0807626d}} 
+\index{SQL@{SQL}!query@{query}}
+\index{query@{query}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{query()}{query()}}
+{\footnotesize\ttfamily def SQL.\+query (\begin{DoxyParamCaption}\item[{}]{cursor,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespace_s_q_l_af06e6da4687a403274c6a7dd45f2e9b9}\label{namespace_s_q_l_af06e6da4687a403274c6a7dd45f2e9b9}} 
+\index{SQL@{SQL}!my\_cursor@{my\_cursor}}
+\index{my\_cursor@{my\_cursor}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{my\_cursor}{my\_cursor}}
+{\footnotesize\ttfamily mysql SQL.\+my\+\_\+cursor = mydb.\+cursor()}
+
+\mbox{\Hypertarget{namespace_s_q_l_a5d112defeb4eff8c42465b1d0be31255}\label{namespace_s_q_l_a5d112defeb4eff8c42465b1d0be31255}} 
+\index{SQL@{SQL}!mydb@{mydb}}
+\index{mydb@{mydb}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{mydb}{mydb}}
+{\footnotesize\ttfamily mysql SQL.\+mydb}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ mysql.connector.Connect(}
+\DoxyCodeLine{00002\ \ \ \ \ host=host,}
+\DoxyCodeLine{00003\ \ \ \ \ port=3306,}
+\DoxyCodeLine{00004\ \ \ \ \ user=user,}
+\DoxyCodeLine{00005\ \ \ \ \ password=password,}
+\DoxyCodeLine{00006\ \ \ \ \ db=db\_name}
+\DoxyCodeLine{00007\ )}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespace_s_q_l_ab35a5519d3b1162298237f57d6259889}\label{namespace_s_q_l_ab35a5519d3b1162298237f57d6259889}} 
+\index{SQL@{SQL}!newRes@{newRes}}
+\index{newRes@{newRes}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{newRes}{newRes}}
+{\footnotesize\ttfamily tuple SQL.\+new\+Res = tuple(el\mbox{[}0\mbox{]} for el in \mbox{\hyperlink{namespace_s_q_l_a8c509549b432bdd5f841b8f9d40bb1a6}{res}})}
+
+\mbox{\Hypertarget{namespace_s_q_l_a8c509549b432bdd5f841b8f9d40bb1a6}\label{namespace_s_q_l_a8c509549b432bdd5f841b8f9d40bb1a6}} 
+\index{SQL@{SQL}!res@{res}}
+\index{res@{res}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{res}{res}}
+{\footnotesize\ttfamily tuple SQL.\+res = (\mbox{\hyperlink{namespace_s_q_l_a89335662d3bf9e1313c6a13e0807626d}{query}}(\mbox{\hyperlink{namespace_s_q_l_af06e6da4687a403274c6a7dd45f2e9b9}{my\+\_\+cursor}}, \char`\"{}show tables\char`\"{}))}
+

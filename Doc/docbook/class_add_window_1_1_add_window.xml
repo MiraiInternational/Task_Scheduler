@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_add_window_1_1_add_window" xml:lang="en-US">
+<title>AddWindow.AddWindow Class Reference</title>
+<indexterm><primary>AddWindow.AddWindow</primary></indexterm>
+<para>Inheritance diagram for AddWindow.AddWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_add_window_1_1_add_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_class_add_window_1_1_add_window_1ac0ebdb844e89eeb1d7c9a6bc54778112">build</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_add_window_1_1_add_window_1ac0ebdb844e89eeb1d7c9a6bc54778112"/><section>
+    <title>build()</title>
+<indexterm><primary>build</primary><secondary>AddWindow.AddWindow</secondary></indexterm>
+<indexterm><primary>AddWindow.AddWindow</primary><secondary>build</secondary></indexterm>
+<para><computeroutput>def AddWindow.AddWindow.build ( self)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__add_window_8py">AddWindow.py</link></section>
+</section>

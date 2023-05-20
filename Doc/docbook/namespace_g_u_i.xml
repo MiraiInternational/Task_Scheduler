@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_g_u_i" xml:lang="en-US">
+<title>GUI Namespace Reference</title>
+<indexterm><primary>GUI</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_g_u_i_1_1_main_app">MainApp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_g_u_i_1a26e81fb0a478da18db2375f1c8597e12">get_columns</link> (data)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_g_u_i_1ad3dface2fd88757967acc44225599d36">get_rows</link> (data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_namespace_g_u_i_1ab69e83ffc1a3f7a0c8c032fff70f639e">BTN_SIZE</link> = (.14, .1)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_g_u_i_1a26e81fb0a478da18db2375f1c8597e12"/><section>
+    <title>get_columns()</title>
+<indexterm><primary>get_columns</primary><secondary>GUI</secondary></indexterm>
+<indexterm><primary>GUI</primary><secondary>get_columns</secondary></indexterm>
+<para><computeroutput>def GUI.get_columns ( data)</computeroutput></para></section>
+<anchor xml:id="_namespace_g_u_i_1ad3dface2fd88757967acc44225599d36"/><section>
+    <title>get_rows()</title>
+<indexterm><primary>get_rows</primary><secondary>GUI</secondary></indexterm>
+<indexterm><primary>GUI</primary><secondary>get_rows</secondary></indexterm>
+<para><computeroutput>def GUI.get_rows ( data)</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespace_g_u_i_1ab69e83ffc1a3f7a0c8c032fff70f639e"/><section>
+    <title>BTN_SIZE</title>
+<indexterm><primary>BTN_SIZE</primary><secondary>GUI</secondary></indexterm>
+<indexterm><primary>GUI</primary><secondary>BTN_SIZE</secondary></indexterm>
+<para><computeroutput>tuple GUI.BTN_SIZE = (.14, .1)</computeroutput></para></section>
+</section>
+</section>

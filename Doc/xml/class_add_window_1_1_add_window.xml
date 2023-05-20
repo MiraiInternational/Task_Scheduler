@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_add_window_1_1_add_window" kind="class" language="Python" prot="public">
+    <compoundname>AddWindow::AddWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FloatLayout</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_add_window_1_1_add_window_1ac0ebdb844e89eeb1d7c9a6bc54778112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def AddWindow.AddWindow.build</definition>
+        <argsstring>(self)</argsstring>
+        <name>build</name>
+        <qualifiedname>AddWindow.AddWindow.build</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AddWindow.py" line="9" column="1" bodyfile="AddWindow.py" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AddWindow.AddWindow</label>
+        <link refid="class_add_window_1_1_add_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FloatLayout</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AddWindow.AddWindow</label>
+        <link refid="class_add_window_1_1_add_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FloatLayout</label>
+      </node>
+    </collaborationgraph>
+    <location file="AddWindow.py" line="7" column="1" bodyfile="AddWindow.py" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_add_window_1_1_add_window_1ac0ebdb844e89eeb1d7c9a6bc54778112" prot="public" virt="non-virtual"><scope>AddWindow::AddWindow</scope><name>build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

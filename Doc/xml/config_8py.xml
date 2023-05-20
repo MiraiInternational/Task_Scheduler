@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="config_8py" kind="file" language="Python">
+    <compoundname>config.py</compoundname>
+    <innernamespace refid="namespaceconfig">config</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceconfig" refkind="compound"><highlight class="comment">#<sp/>Server<sp/>Parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">host<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;127.0.0.1&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">user<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;root&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">password<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1111&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">db_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;task&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">MAIN_TABLE<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;tasks&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>SQL<sp/>QUERY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">select_all<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SELECT<sp/>*<sp/>FROM<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">describe<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DESCRIBE<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">delete<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DELETE<sp/>from<sp/>&quot;</highlight></codeline>
+    </programlisting>
+    <location file="config.py"/>
+  </compounddef>
+</doxygen>

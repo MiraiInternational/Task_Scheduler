@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_g_u_i_1_1_main_app" xml:lang="en-US">
+<title>GUI.MainApp Class Reference</title>
+<indexterm><primary>GUI.MainApp</primary></indexterm>
+<para>Inheritance diagram for GUI.MainApp:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_g_u_i_1_1_main_app.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_class_g_u_i_1_1_main_app_1a57ed5af81ccea28427edeb2e6aab3950">delete_table</link> (self, screen)</para>
+</listitem>
+            <listitem><para>def <link linkend="_class_g_u_i_1_1_main_app_1a31cce057786b1f03004d03c311a4f76e">build</link> (self)</para>
+</listitem>
+            <listitem><para>def <link linkend="_class_g_u_i_1_1_main_app_1ab07d0eaf1d482e560d2cd67d5a4583a0">checked</link> (self, instance_table, current_row)</para>
+</listitem>
+            <listitem><para>def <link linkend="_class_g_u_i_1_1_main_app_1a175bbf53d04190f0a5ebb8b68c0f4830">row_checked</link> (self, instance_table, instance_row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_g_u_i_1_1_main_app_1a31cce057786b1f03004d03c311a4f76e"/><section>
+    <title>build()</title>
+<indexterm><primary>build</primary><secondary>GUI.MainApp</secondary></indexterm>
+<indexterm><primary>GUI.MainApp</primary><secondary>build</secondary></indexterm>
+<para><computeroutput>def GUI.MainApp.build ( self)</computeroutput></para></section>
+<anchor xml:id="_class_g_u_i_1_1_main_app_1ab07d0eaf1d482e560d2cd67d5a4583a0"/><section>
+    <title>checked()</title>
+<indexterm><primary>checked</primary><secondary>GUI.MainApp</secondary></indexterm>
+<indexterm><primary>GUI.MainApp</primary><secondary>checked</secondary></indexterm>
+<para><computeroutput>def GUI.MainApp.checked ( self,  instance_table,  current_row)</computeroutput></para></section>
+<anchor xml:id="_class_g_u_i_1_1_main_app_1a57ed5af81ccea28427edeb2e6aab3950"/><section>
+    <title>delete_table()</title>
+<indexterm><primary>delete_table</primary><secondary>GUI.MainApp</secondary></indexterm>
+<indexterm><primary>GUI.MainApp</primary><secondary>delete_table</secondary></indexterm>
+<para><computeroutput>def GUI.MainApp.delete_table ( self,  screen)</computeroutput></para></section>
+<anchor xml:id="_class_g_u_i_1_1_main_app_1a175bbf53d04190f0a5ebb8b68c0f4830"/><section>
+    <title>row_checked()</title>
+<indexterm><primary>row_checked</primary><secondary>GUI.MainApp</secondary></indexterm>
+<indexterm><primary>GUI.MainApp</primary><secondary>row_checked</secondary></indexterm>
+<para><computeroutput>def GUI.MainApp.row_checked ( self,  instance_table,  instance_row)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__g_u_i_8py">GUI.py</link></section>
+</section>

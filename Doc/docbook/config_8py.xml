@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_config_8py" xml:lang="en-US">
+<title>config.py File Reference</title>
+<indexterm><primary>config.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceconfig">config</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceconfig_1a064b1520dbe78f2667b638c59617b141">config.host</link> = &quot;127.0.0.1&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1a10268d46b69d51ed168d8e4440a1274b">config.user</link> = &quot;root&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1a6cd6dab13da9dc753475e1eb17495774">config.password</link> = &quot;1111&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1acde11b216a7b6d004ed63dafdeaf9d63">config.db_name</link> = &quot;task&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1a2d2c5a47dd4842383af9c4152e9e9835">config.MAIN_TABLE</link> = &quot;tasks&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1a99d1ee84be57ae45c44b94eaa982d2a6">config.select_all</link> = &quot;SELECT * FROM &quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1ab1352d136d10b9311d8f5e19a6a79b17">config.describe</link> = &quot;DESCRIBE &quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespaceconfig_1a14d8db40500dc878ecc368392350a9d8">config.delete</link> = &quot;DELETE from &quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

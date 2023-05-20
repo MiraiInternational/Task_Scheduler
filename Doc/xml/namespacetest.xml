@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacetest" kind="namespace" language="Python">
+    <compoundname>test</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetest_1a22257ca5d49093888407149ed5dafbcd" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list test.res2</definition>
+        <argsstring></argsstring>
+        <name>res2</name>
+        <qualifiedname>test.res2</qualifiedname>
+        <initializer>=  []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.py" line="20" column="1" bodyfile="test.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacetest_1a1c7d8bbd8c57b52234b560a87a0a1dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def test.get_rows</definition>
+        <argsstring>(data)</argsstring>
+        <name>get_rows</name>
+        <qualifiedname>test.get_rows</qualifiedname>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.py" line="4" column="1" bodyfile="test.py" bodystart="4" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetest_1af58c60c388329542693894db14285d58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def test.get_columns</definition>
+        <argsstring>(data)</argsstring>
+        <name>get_columns</name>
+        <qualifiedname>test.get_columns</qualifiedname>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.py" line="11" column="1" bodyfile="test.py" bodystart="11" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

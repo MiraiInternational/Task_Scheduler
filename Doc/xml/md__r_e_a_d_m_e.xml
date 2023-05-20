@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Task_Scheduler</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Планеровщик задач - это инструмент управления задачами, который помогает пользователям создавать, управлять и отслеживать свои задачи и проекты.</para>
+<para>Вы можете использовать планер задач для следующих целей:</para>
+<para><itemizedlist>
+<listitem><para>Создать задачи</para>
+</listitem><listitem><para>Определить сроки выполнения задач</para>
+</listitem><listitem><para>Управлять приоритетом задач</para>
+</listitem><listitem><para>Добавить описание и комментарии к задачам</para>
+</listitem><listitem><para>Установить напоминания о задачах</para>
+</listitem><listitem><para>Отслеживать прогресс выполнения задач</para>
+</listitem></itemizedlist>
+</para>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md1">
+<title>Документация разработчика</title>
+<para>Планеровщик задач - это веб-приложение, созданное с использованием фреймворка Django.</para>
+<para>Для запуска планера задач на локальном компьютере необходимо выполнить следующие шаги:</para>
+<para><orderedlist>
+<listitem><para>Склонировать репозиторий:</para>
+</listitem></orderedlist>
+</para>
+<para><programlisting filename=".git"><codeline><highlight class="normal">2.<sp/>Установить<sp/>зависимости:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```pip<sp/>install<sp/>-r<sp/>requirements.txt</highlight></codeline>
+</programlisting></para>
+<para><orderedlist>
+<listitem><para>Создать и применить миграции базы данных:</para>
+</listitem></orderedlist>
+</para>
+<para><programlisting filename=".py"><codeline><highlight class="normal">```python<sp/>manage.py<sp/>migrate</highlight></codeline>
+</programlisting></para>
+<para><orderedlist>
+<listitem><para>Создать суперпользователя:</para>
+</listitem></orderedlist>
+</para>
+<para><programlisting filename=".py"><codeline><highlight class="normal">5.<sp/>Запустить<sp/>сервер:</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">```python<sp/>manage.py<sp/>runserver</highlight></codeline>
+</programlisting></para>
+<para>После запуска сервера можно открыть приложение в браузере по адресу <ulink url="http://localhost:8000/">http://localhost:8000/</ulink>. </para>
+</sect1>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

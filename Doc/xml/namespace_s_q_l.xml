@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_s_q_l" kind="namespace" language="Python">
+    <compoundname>SQL</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_s_q_l_1a5d112defeb4eff8c42465b1d0be31255" prot="public" static="no" mutable="no">
+        <type>mysql</type>
+        <definition>mysql SQL.mydb</definition>
+        <argsstring></argsstring>
+        <name>mydb</name>
+        <qualifiedname>SQL.mydb</qualifiedname>
+        <initializer>=  mysql.connector.Connect(
+    host=host,
+    port=3306,
+    user=user,
+    password=password,
+    db=db_name
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL.py" line="6" column="1" bodyfile="SQL.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_s_q_l_1af06e6da4687a403274c6a7dd45f2e9b9" prot="public" static="no" mutable="no">
+        <type>mysql</type>
+        <definition>mysql SQL.my_cursor</definition>
+        <argsstring></argsstring>
+        <name>my_cursor</name>
+        <qualifiedname>SQL.my_cursor</qualifiedname>
+        <initializer>=  mydb.cursor()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL.py" line="14" column="1" bodyfile="SQL.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_s_q_l_1a8c509549b432bdd5f841b8f9d40bb1a6" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SQL.res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <qualifiedname>SQL.res</qualifiedname>
+        <initializer>=  (<ref refid="namespace_s_q_l_1a89335662d3bf9e1313c6a13e0807626d" kindref="member">query</ref>(<ref refid="namespace_s_q_l_1af06e6da4687a403274c6a7dd45f2e9b9" kindref="member">my_cursor</ref>, &quot;show tables&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL.py" line="24" column="1" bodyfile="SQL.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_s_q_l_1ab35a5519d3b1162298237f57d6259889" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SQL.newRes</definition>
+        <argsstring></argsstring>
+        <name>newRes</name>
+        <qualifiedname>SQL.newRes</qualifiedname>
+        <initializer>=  tuple(el[0] for el in <ref refid="namespace_s_q_l_1a8c509549b432bdd5f841b8f9d40bb1a6" kindref="member">res</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL.py" line="26" column="1" bodyfile="SQL.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_s_q_l_1a89335662d3bf9e1313c6a13e0807626d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SQL.query</definition>
+        <argsstring>(cursor, data)</argsstring>
+        <name>query</name>
+        <qualifiedname>SQL.query</qualifiedname>
+        <param>
+          <type>cursor</type>
+          <defname>cursor</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL.py" line="17" column="1" bodyfile="SQL.py" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SQL.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

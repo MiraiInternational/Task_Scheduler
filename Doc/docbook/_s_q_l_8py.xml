@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__s_q_l_8py" xml:lang="en-US">
+<title>SQL.py File Reference</title>
+<indexterm><primary>SQL.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_s_q_l">SQL</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_s_q_l_1a89335662d3bf9e1313c6a13e0807626d">SQL.query</link> (cursor, data)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>mysql <link linkend="_namespace_s_q_l_1a5d112defeb4eff8c42465b1d0be31255">SQL.mydb</link></para>
+</listitem>
+            <listitem><para>mysql <link linkend="_namespace_s_q_l_1af06e6da4687a403274c6a7dd45f2e9b9">SQL.my_cursor</link> = mydb.cursor()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_s_q_l_1a8c509549b432bdd5f841b8f9d40bb1a6">SQL.res</link> = (query(my_cursor, &quot;show tables&quot;))</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_s_q_l_1ab35a5519d3b1162298237f57d6259889">SQL.newRes</link> = tuple(el[0] for el in res)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
