@@ -1,3 +1,8 @@
+from kivy.config import Config
+
+Config.set('graphics', 'width', '600')
+Config.set('graphics', 'height', '500')
+
 from kivy.lang import Builder
 from kivymd.app import MDApp
 from kivymd.uix.banner import MDBanner
@@ -16,9 +21,9 @@ class New_Parameter(MDApp):
         screen = FloatLayout()
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "Orange"
+        self.title = 'Change'
         screen.add_widget(FitImage(source='pic\\1618529499_62-funart_pro-p-oboi-fon-material-dizain-62.png'))
-        pk_list = [el[0] for el in SQL.query(SQL.my_cursor, 'SELECT Researches_ID from research')]
-        dep_list = [el[0] for el in SQL.query(SQL.my_cursor, 'SELECT Status_ID from status')]
+        pk_list = [el[0] for el in SQL.query(SQL.my_cursor, 'SELECT № from tasks')]
         def has_numbers(inputString):
             return any(char.isdigit() for char in inputString)
 
@@ -32,11 +37,11 @@ class New_Parameter(MDApp):
                 try:
                     int(Field1.text)
                     if int(Field1.text) not in pk_list:
-                        Field1.helper_text = 'Этот ID не используется'
+                        Field1.helper_text = 'Этот номер не используется'
                         Field1.error = True
                 except ValueError:
                     Field1.error = True
-                    Field1.helper_text = 'ID должен быть INT'
+                    Field1.helper_text = 'Номер должен быть INT'
             else:
                 Field1.error = True
             validate()
@@ -64,9 +69,6 @@ class New_Parameter(MDApp):
             if not has_numbers(Field4.text):
                 Field4.error = True
                 Field4.helper_text = 'Значения должны иметь тип INT'
-            if Field4.text not in dep_list:
-                Field4.helper_text = 'ID должен быть верным'
-                Field4.error = True
             else:
                 Field4.error = False
             if Field4.text == "":
@@ -74,17 +76,18 @@ class New_Parameter(MDApp):
             validate()
 
         Field1 = MDTextField(
-            hint_text="Researches_ID",
+            hint_text="№",
             pos_hint={"x": 0.05, "y": 0.7},
             size_hint={0.6, 0.05},
             multiline=False,
             helper_text_mode='on_error',
             max_text_length=64,
+            required=True
         )
         Field1.bind(focus=error_1)
 
         Field2 = MDTextField(
-            hint_text="Name",
+            hint_text="Task",
             pos_hint={"x": 0.05, "y": 0.6},
             size_hint={0.6, 0.05},
             multiline=False,
@@ -105,7 +108,7 @@ class New_Parameter(MDApp):
         Field3.bind(focus=error_3)
 
         Field4 = MDTextField(
-            hint_text="Status_ID",
+            hint_text="Time",
             pos_hint={"x": 0.05, "y": 0.4},
             size_hint={0.6, 0.05},
             multiline=False,
@@ -115,11 +118,11 @@ class New_Parameter(MDApp):
         Field4.bind(focus=error_4)
 
         def new(instance):
-            SQL.query(SQL.my_cursor, f'UPDATE research SET '
-                                     f'Name = \'{Field2.text}\','
+            SQL.query(SQL.my_cursor, f' UPDATE tasks SET '
+                                     f' Task = \'{Field2.text}\','
                                      f' Description = \'{Field3.text}\', '
-                                     f' Status_ID = {Field4.text} '
-                                     f'WHERE Researches_ID = {Field1.text}')
+                                     f' Time = {Field4.text} '
+                                     f'WHERE № = {Field1.text}')
             SQL.mydb.commit()
             MDApp.get_running_app().stop()
 
